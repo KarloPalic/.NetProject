@@ -1,0 +1,1 @@
+{"language":"en","gender":"Men","favorite_team":"CRC","player_names":null,"resolution":"1320x800"}

@@ -1,0 +1,24 @@
+﻿<Window x:Class="WindowsPresentationFoundationApplication.PlayerStats"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WindowsPresentationFoundationApplication.Resources"
+        mc:Ignorable="d"
+        Title="PlayerStats" Height="227" Width="431">
+    <Grid>
+        <Label Content="{x:Static local:Resource1.PlayerNumberText}" HorizontalAlignment="Left" Margin="128,28,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="{x:Static local:Resource1.PlayerNameText}" HorizontalAlignment="Left" Margin="128,67,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="{x:Static local:Resource1.CaptainText}" HorizontalAlignment="Left" Margin="128,106,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="{x:Static local:Resource1.PositionText}" HorizontalAlignment="Left" Margin="128,145,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="lbPlayerNumber" Content="Label" HorizontalAlignment="Left" Margin="252,28,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="lbPlayerName" Content="Label" HorizontalAlignment="Left" Margin="231,67,0,0" VerticalAlignment="Top" Width="184" FontSize="16"/>
+        <Label x:Name="lbCaptain" Content="Label" HorizontalAlignment="Left" Margin="200,106,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="lbPosition" Content="Label" HorizontalAlignment="Left" Margin="203,145,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Grid Margin="10,44,308,38" MouseLeftButtonDown ="imgPlayerPic_MouseLeftButtonDown">
+            <Grid.Background>
+                <ImageBrush ImageSource="C:\Users\wExzEk\Desktop\Year 3\OOP .NET\Project\WindowsPresentationFoundationApplication\Resources\defaultPic.png"/>
+            </Grid.Background>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,59 @@
+﻿<Window x:Class="WindowsPresentationFoundationApplication.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WindowsPresentationFoundationApplication.Resources"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="790" Width="1265" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,10,0,10" HorizontalAlignment="Center" VerticalAlignment="Top" Height="431" Width="782">
+        <ComboBox x:Name="cbHomeTeam" HorizontalAlignment="Left" Margin="130,54,0,0" VerticalAlignment="Top" Width="150" Height="34" SelectionChanged="cbHomeTeam_SelectionChanged"/>
+        <ComboBox x:Name="cbAwayTeam" HorizontalAlignment="Left" Margin="500,54,0,0" VerticalAlignment="Top" Width="150" Height="34" SelectionChanged="cbAwayTeam_SelectionChanged"/>
+        <StackPanel x:Name="pnlData" Margin="194,93,0,0" Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" Height="46" Width="456">
+            <Label x:Name="lbHomeTeam" Content="HomeTeam" FontSize="16" FontWeight="Bold" Width="158" MouseLeftButtonDown="lbHomeTeam_MouseLeftButtonDown"/>
+            <Label x:Name="lbHomeScore" Content="0" FontSize="18" RenderTransformOrigin="1.328,0.43" FontWeight="Bold" Width="38"/>
+            <Label Content=":" FontSize="16" FontWeight="Bold" RenderTransformOrigin="0.803,-0.223" Width="34"/>
+            <Label x:Name="lbAwayScore" Content="0" RenderTransformOrigin="-0.023,-0.4" FontSize="18" FontWeight="Bold" Width="66" Height="54"/>
+            <Label x:Name="lbAwayTeam" Content="AwayTeam" FontSize="16" FontWeight="Bold" RenderTransformOrigin="2.079,2.187" Width="158" MouseLeftButtonDown="lbAwayTeam_MouseLeftButtonDown"/>
+
+        </StackPanel>
+        <Button x:Name="btnSettings" Content="{x:Static local:Resource1.SettingsText}" HorizontalAlignment="Left" Margin="68,10,0,0" VerticalAlignment="Top" Height="26" Width="93" FontSize="16" FontWeight="Bold" Click="btnSettings_Click"/>
+        <Grid Margin="129,-149,133,-518" RenderTransformOrigin="0.5,0.5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="43*"/>
+                <RowDefinition Height="110*"/>
+                <RowDefinition Height="114*"/>
+                <RowDefinition Height="128*"/>
+                <RowDefinition Height="112*"/>
+                <RowDefinition Height="65*"/>
+                <RowDefinition Height="113*"/>
+                <RowDefinition Height="125*"/>
+                <RowDefinition Height="129*"/>
+                <RowDefinition Height="117*"/>
+                <RowDefinition Height="42*"/>
+            </Grid.RowDefinitions>
+            <Grid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Grid.RenderTransform>
+            <Grid.Background>
+                <ImageBrush ImageSource="C:\Users\wExzEk\Desktop\Year 3\OOP .NET\Project\WindowsPresentationFoundationApplication\Resources\footballfield.png"/>
+            </Grid.Background>
+            <StackPanel x:Name="pnlHomeGoalie" Grid.Row="9" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <StackPanel x:Name="pnlHomeDefence" Grid.Row="8" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <StackPanel x:Name="pnlHomeMid" Grid.Row="7" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <StackPanel x:Name="pnlHomeAttack" Grid.Row="6" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <StackPanel x:Name="pnlAwayAttack" Grid.Row="4" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <StackPanel x:Name="pnlAwayMid" Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <StackPanel x:Name="pnlAwayDefence" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <StackPanel x:Name="pnlAwayGoalie" Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+
+
+
+    </Grid>
+</Window>

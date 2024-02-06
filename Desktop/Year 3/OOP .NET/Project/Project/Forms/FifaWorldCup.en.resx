@@ -1,0 +1,174 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbFavTeam.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbFavTeam.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="lbFavTeam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 50</value>
+  </data>
+  <data name="lbFavTeam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>212, 28</value>
+  </data>
+  <data name="lbFavTeam.Text" xml:space="preserve">
+    <value>Select Favorite Team:</value>
+  </data>
+  <data name="cbFavTeam.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="cbFavTeam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>255, 50</value>
+  </data>
+  <data name="cbFavTeam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>610, 36</value>
+  </data>
+  <data name="btnRanking.Location" type="System.Drawing.Point, System.Drawing">
+    <value>893, 52</value>
+  </data>
+  <data name="btnRanking.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 36</value>
+  </data>
+  <data name="btnRanking.Text" xml:space="preserve">
+    <value>Ranking</value>
+  </data>
+  <data name="lbPlayers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbPlayers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbPlayers.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbPlayers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>205, 116</value>
+  </data>
+  <data name="lbPlayers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 28</value>
+  </data>
+  <data name="lbPlayers.Text" xml:space="preserve">
+    <value>Players:</value>
+  </data>
+  <data name="lbFavPlayers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbFavPlayers.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="lbFavPlayers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>698, 116</value>
+  </data>
+  <data name="lbFavPlayers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 28</value>
+  </data>
+  <data name="lbFavPlayers.Text" xml:space="preserve">
+    <value>Favorite Players:</value>
+  </data>
+  <data name="flpPlayers.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flpPlayers.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>TopDown</value>
+  </data>
+  <data name="flpPlayers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>467, 387</value>
+  </data>
+  <data name="flpPlayers.WrapContents" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="flpFavPlayers.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flpFavPlayers.FlowDirection" type="System.Windows.Forms.FlowDirection, System.Windows.Forms">
+    <value>TopDown</value>
+  </data>
+  <data name="flpFavPlayers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>557, 160</value>
+  </data>
+  <data name="flpFavPlayers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>467, 387</value>
+  </data>
+  <data name="flpFavPlayers.WrapContents" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnChangeSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 4</value>
+  </data>
+  <data name="btnChangeSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 40</value>
+  </data>
+  <data name="btnChangeSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnChangeSettings.Text" xml:space="preserve">
+    <value>Change Settings</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1052, 600</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>2018 Fifa World Cup</value>
+  </data>
+</root>
